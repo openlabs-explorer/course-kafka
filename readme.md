@@ -1,0 +1,1 @@
+This course on Kafka explains Kafa concepts and how to get started with using Kafka

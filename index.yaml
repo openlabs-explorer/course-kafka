@@ -1,0 +1,46 @@
+---
+name: Kafka
+description: This course on Kafka explains Kafa concepts and how to get started with using Kafka.
+branding:
+    logo: _images/kafka_logo.png
+    banner: 
+    textColor: '#000000'
+    header:
+        text: Kafka
+        logo: _images/kafka_logo.png
+license: 
+duration: 60 mins
+categories:
+    - Backend
+    - Express
+    - Frontend
+intro: readme.md
+documentation: 
+commands:
+    - name: .
+      cmd: 
+      cwd: /home/student
+      stepMessage: .
+environment:
+    terminal:
+        name: Terminal
+        enabled: true
+    ide:
+        name: IDE
+        enabled: true
+        url: '{{ IDE.url }}'
+    application:
+        name: StarterKit
+        url: '{{ DNS.host }}/starterkit'
+        enabled: true
+config:
+    launchBtn:
+        buttonLabel: Launch
+    execCmd : 
+        autoExecute: false
+        buttonLabel: Execute Commands
+backend:
+    service: rosa
+tileInfo: []
+
+
