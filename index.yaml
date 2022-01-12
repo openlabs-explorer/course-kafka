@@ -1,6 +1,6 @@
 ---
 name: Kafka
-description: This course on Kafka explains Kafa concepts and how to get started with using Kafka.
+description: This course explains Kafka concepts and how to get started with using Kafka.
 branding:
     logo: _images/kafka_logo.png
     banner: 
@@ -30,9 +30,9 @@ environment:
         enabled: true
         url: '{{ IDE.url }}'
     application:
-        name: StarterKit
-        url: '{{ DNS.host }}/starterkit'
-        enabled: true
+        name: Kafka
+        url: '{{ DNS.host }}/ui'
+        enabled: false
 config:
     launchBtn:
         buttonLabel: Launch
@@ -40,7 +40,7 @@ config:
         autoExecute: false
         buttonLabel: Execute Commands
 backend:
-    service: rosa
+    service: kafka
 tileInfo: []
 
 
